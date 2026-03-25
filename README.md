@@ -1,17 +1,29 @@
-# Password-Strength-Checker-
+#  Password Strength Checker
 
-What is it?
+A lightweight, efficient **Command Line Interface (CLI)** tool built with Python to help users evaluate the security of their passwords.
 
-It is a password strength checker made entirely using Python, with command line interface (CLI).
+##  Overview
+In an era of increasing digital threats, this tool provides an instant assessment of password security. It analyzes various complexity factors to determine if your password can stand up against common brute-force attacks.
 
-What does it do?
+##  How It Works
+The checker evaluates the strength of a password based on four critical security dimensions:
 
-Checks the strength of your entered password.
+* **Length:** Checks if the password meets the minimum recommended character count.
+* **Casing:** Verifies the use of both uppercase and lowercase letters.
+* **Special Characters:** Looks for symbols (e.g., `!`, `@`, `#`, `$`) that increase entropy.
+* **Numerical Digits:** Ensures the inclusion of numbers to prevent simple dictionary-based patterns.
 
-What all does it consider?
 
-It considers:
-1. Password length
-2. casing
-3. special characters
-4. digits.
+
+##  Technical Stack
+* **Language:** Python 
+* **Interface:** CLI (Command Line Interface)
+
+##  Usage
+1.**Clone the repository**
+   
+2.**Run the script**
+   
+3.**Enter your password** when prompted and receive an instant strength rating!
+
+
